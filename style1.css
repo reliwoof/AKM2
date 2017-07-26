@@ -21,22 +21,44 @@ main {
 * {
     font-family: 'Lato', sans-serif;
 }
+header, h1 {
+    text-transform: uppercase;
+}
+#grafika_tekst {
+    color: black !important;
+    font-size: 2vw;
+    position: absolute;
+    font-weight: bold;
+    left: 10%;
+    top: 10%;
+
+
+}
+#grafika_logo img{
+    width: 100%;
+}
+#grafika_logo {
+    width: 170px;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
 #przycisk {
     display: none;
 }
 #przycisk div {
-    
-        width: 35px;
-        height: 5px;
-        background-color: black;
-        margin: 6px 0;
-    
+
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+
 }
 #logomenu2 {
     display: none;
 }
 .naglowek {
-    font-size: 70px;
+    font-size: 2.5vw;
 }
 h1 {
     font-weight: normal;
@@ -61,7 +83,7 @@ h1 {
     width: 40%;
     float: right;
     padding-right: 5%;
-    font-size: 30px;
+    font-size: 1.2vw;
 }
 .zdjecie {
     width: 55%;
@@ -85,8 +107,8 @@ h1 {
 }*/
 #tytul h1 {
     text-align: center;
-    text-transform: capitalize;
-    font-size: 100px;
+    /*text-transform: capitalize;*/
+    font-size: 3vw;
     margin: 5% 0;
     letter-spacing: 1.5px;
 }
@@ -94,17 +116,18 @@ h1 {
     height: 50px;
 }*/
 #zdjecie1 {
+    position: relative;
     width: 100%;
     height: 100%;
     /*        background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;*/
-    background-image: url("Grafiki do AKM/AKM_grafika startowa.png");
+    background-image: url("img/AKM_grafika startowa3 pusta.png");
     /*font-size: 100px;*/
 }
 #zdjecie2 {
-    background-image: url("img/3.jpg");
+    background-image: url("img/AKM_grafika startowa3 pusta.png");
 }
 nav {
     padding-top: 5px;
@@ -126,7 +149,7 @@ nav ul {
     height:100%;
     /*background-color:blue;*/
     width:80%;
-    font-size: 30px;
+    font-size: 1.2vw;
 
     /*line-height: 50px;*/
 }
@@ -196,7 +219,7 @@ a:visited {
     display: block;
     color: white;
     padding: 10% 0 5% 0;
-    font-size: 70px;
+    font-size: 3vw;
 }
 #omnie article{
     padding: 5%;
@@ -239,14 +262,13 @@ a:visited {
     /*height: 65%;*/
 }
 #zdjecie2 p {
-    font-size: 30px;
+    font-size: 1.2vw;
     color: white;
     padding: 0 5%;
 
 }
 #kontakt {
-    height: 80%;
-    margin-bottom: 50px;
+    height: 50%;
 }
 #kontakt > div {
     height: 70%;
@@ -255,7 +277,7 @@ a:visited {
     background-color: black;
 }
 #danekontaktowe{
-    padding-top: 5%;
+    /*padding-top: 5%;*/
     width: 50%;
     float: right;
     /*text-align: center;*/
@@ -264,16 +286,16 @@ a:visited {
 }
 #danekontaktowe header {
     text-align: center;
-    font-size: 100px;
+    font-size: 2.5vw;
 }
 #danekontaktowe article{
-    font-size: 50px;
+    font-size: 1.5vw;
     padding-left:20%;
 }
 textarea {
     resize: none;
     width: 100%;
-    height: 50%;
+    height: 100px;
     border: 0;
     padding-left: 0;
     padding-right: 0;
@@ -305,7 +327,7 @@ form {
     background-color: black;
     color: white;
     border: none;
-    font-size: 50px;
+    font-size: 1.5vw;
     outline: none;
     cursor: pointer;
 }
@@ -347,15 +369,15 @@ textarea::placeholder {
         font-weight: normal;
     }
     .naglowek {
-        font-size: 50px;
+        /*font-size: 50px;*/
     }
     .tekst {
-        font-size: 20px;
+        /*font-size: 20px;*/
     }
     .parallax {
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: cover;
+        /*background-size: cover;*/
         background-position: center;
         height: 100%;
         min-width: 100%;
@@ -385,8 +407,8 @@ textarea::placeholder {
     }*/
     #tytul h1 {
         text-align: center;
-        text-transform: capitalize;
-        font-size: 70px;
+        /*text-transform: capitalize;*/
+        /*font-size: 3vw;*/
         margin: 5% 0;
         letter-spacing: 1.5px;
     }
@@ -397,11 +419,11 @@ textarea::placeholder {
         width: 100%;
         height: 100%;
 
-        background-image: url("Grafiki do AKM/AKM_grafika startowa2.png");
+        /*background-image: url("Grafiki do AKM/AKM_grafika startowa2.png");*/
         /*font-size: 100px;*/
     }
     #zdjecie2 {
-        background-image: url("img/3.jpg");
+        /*background-image: url("img/3.jpg");*/
     }
     nav {
         padding-top: 5px;
@@ -412,7 +434,7 @@ textarea::placeholder {
         display:flex;
         justify-content: center;
         text-transform: uppercase;
-        background-color: rgba(255,255,255,0.7);
+        background-color: rgba(255,255,255,1);
         z-index: 10;
         border-bottom: solid 1px black;
     }
@@ -421,7 +443,7 @@ textarea::placeholder {
         height:100%;
         /*background-color:blue;*/
         width:80%;
-        font-size: 19px;
+        /*font-size: 19px;*/
         /*line-height: 50px;*/
     }
     nav ul li {
@@ -464,7 +486,7 @@ textarea::placeholder {
         display: block;
         color: white;
         padding: 10% 0 5% 0;
-        font-size: 50px;
+        /*font-size: 50px;*/
     }
     #omnie article{
         padding: 5%;
@@ -507,13 +529,13 @@ textarea::placeholder {
         /*height: 65%;*/
     }
     #zdjecie2 p {
-        font-size: 20px;
+        /*font-size: 20px;*/
         color: white;
         padding: 0 5%;
 
     }
     #kontakt {
-        height: 100%;
+        /*height: 80%;*/
         /*margin-bottom: 50px;*/
     }
     #kontakt > div {
@@ -523,7 +545,7 @@ textarea::placeholder {
         background-color: black;
     }
     #danekontaktowe{
-        padding-top: 5%;
+        /*padding-top: 5%;*/
         width: 50%;
         float: right;
         /*text-align: center;*/
@@ -531,15 +553,15 @@ textarea::placeholder {
         color: white;
     }
     #danekontaktowe header {
-        font-size: 50px;
+        /*font-size: 50px;*/
     }
     #danekontaktowe article{
-        font-size: 30px;
+        /*font-size: 30px;*/
     }
     textarea {
         resize: none;
         width: 100%;
-        height: 50%;
+        /*height: 50%;*/
         border: 0;
         padding-left: 0;
         padding-right: 0;
@@ -571,7 +593,7 @@ textarea::placeholder {
         background-color: black;
         color: white;
         border: none;
-        font-size: 30px;
+        /*font-size: 30px;*/
         outline: none;
         cursor: pointer;
     }
@@ -594,7 +616,7 @@ textarea::placeholder {
         text-align: left;
     }
 }
-@media screen and (max-width: 1080px){
+/*@media screen and (max-width: 1080px){
     .naglowek {
         font-size: 40px;
     }
@@ -658,14 +680,14 @@ textarea::placeholder {
         height: 22px;
     }
 
-}
+}*/
 @media screen and (max-width: 736px){
     #przycisk {
         display: block;
         position: fixed;
         right: 5%;
         top: 5%;
-        background-color: rgba(255,255,255,0.7);
+        /*background-color: rgba(255,255,255,1);*/
         z-index: 300;
         width: 35px;
         height: 35px;
@@ -732,7 +754,7 @@ textarea::placeholder {
     #kontakt > div {
         padding: 0;
     }
-    .naglowek {
+/*    .naglowek {
         font-size: 33px;
     }
     .tekst {
@@ -761,10 +783,10 @@ textarea::placeholder {
     }
     #formularz input {
         height: 20px;
-    }
+    }*/
 
 }
-@media screen and (max-width: 694px){
+/*@media screen and (max-width: 694px){
     .naglowek {
         font-size: 33px;
     }
@@ -795,8 +817,8 @@ textarea::placeholder {
     #formularz input {
         height: 20px;
     }
-}
-@media screen and (max-width: 667px){
+}*/
+/*@media screen and (max-width: 667px){
     .naglowek {
         font-size: 32px;
     }
@@ -954,5 +976,15 @@ textarea::placeholder {
     }
     #formularz input {
         height: 10px;
+    }
+}*/
+@media all and (orientation: portrait) {
+    #zdjecie1 {
+
+        background-image: url("img/AKM_grafika startowa mala pusta.png");
+
+    }
+    #zdjecie2 {
+        background-image: url("img/AKM_grafika startowa mala pusta.png");
     }
 }

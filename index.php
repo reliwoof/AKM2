@@ -35,7 +35,7 @@
             ?>
             <nav>
                 <ul class="menu">
-                    <li id="logomenu"><a href="#home"><img href="#home" id="logo" src="Grafiki do AKM/logo.png" alt="logo"/></a></li>
+                    <li id="logomenu"><a href="#home"><img href="#home" id="logo" src="img/logo2.png" alt="logo"/></a></li>
                     <li><a href="#tytul">Portfolio</a></li>
 
                     <li><a href="#omnie">O mnie</a></li>
@@ -50,12 +50,15 @@
             <section id="home">
 
                 <div id="zdjecie1" class="parallax">
+                    <div id="grafika_tekst">AKM - ARCHITEKT KAMIL&nbsp;MAZUR</div>
+                    <div id="grafika_logo"><img src="img/logo3.png" /></div>
+                    
                     <!--<img src="Grafiki do AKM/AKM_grafika startowa.png" alt="grafika"/>-->
                 </div>
             </section>
             <section id="tytul">
                 <header>
-                    <h1>portfolio</h1>
+                    <h1>Portfolio</h1>
                 </header>
             </section>
 
@@ -112,7 +115,7 @@
                     </div>
                     <div id="danekontaktowe">
                         <header>
-                            <div>Kontakt</div>
+                            <h1 class="naglowek">Kontakt</h1>
                         </header>
                         <article>
                             <p>AKM - ARCHITEKT KAMIL MAZUR</p>
@@ -138,20 +141,19 @@
                 }, offset);
                 return false;
             });
-            $("#przycisk").click(function () {
-//        $("#logomenu").hide();
-//        $("#logomenu2").show();
-                console.log("test");
-                $("nav").stop().slideToggle();
-            });
-
-            if ($(window).outerWidth() <= '736') {
-                $("nav a").click(function () {
-                    $("nav").stop().slideToggle();
-                });
-            } else {
-                $("nav").show();
-            }
+//            $("#przycisk").click(function () {
+////        $("#logomenu").hide();
+////        $("#logomenu2").show();
+//                $("nav").show().slideToggle();
+//            });
+//
+//            if ($(window).outerWidth() <= '736') {
+//                $("nav a").click(function () {
+//                    $("nav").show().slideToggle();
+//                });
+//            } else {
+//                $("nav").show();
+//            }
 //         $(function () {
 //                $("#mailing").delay(4000).fadeOut();
 //            });
