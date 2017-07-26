@@ -28,7 +28,7 @@ header, h1 {
     color: black !important;
     font-size: 2vw;
     position: absolute;
-    font-weight: bold;
+    /*font-weight: bold;*/
     left: 10%;
     top: 10%;
 
@@ -50,7 +50,7 @@ header, h1 {
 
     width: 35px;
     height: 5px;
-    background-color: black;
+    background-color: lightgrey;
     margin: 6px 0;
 
 }
@@ -616,7 +616,7 @@ textarea::placeholder {
         text-align: left;
     }
 }
-/*@media screen and (max-width: 1080px){
+@media screen and (max-width: 1080px){
     .naglowek {
         font-size: 40px;
     }
@@ -680,7 +680,7 @@ textarea::placeholder {
         height: 22px;
     }
 
-}*/
+}
 @media screen and (max-width: 736px){
     #przycisk {
         display: block;
@@ -754,7 +754,7 @@ textarea::placeholder {
     #kontakt > div {
         padding: 0;
     }
-/*    .naglowek {
+    .naglowek {
         font-size: 33px;
     }
     .tekst {
@@ -783,10 +783,10 @@ textarea::placeholder {
     }
     #formularz input {
         height: 20px;
-    }*/
+    }
 
 }
-/*@media screen and (max-width: 694px){
+@media screen and (max-width: 694px){
     .naglowek {
         font-size: 33px;
     }
@@ -817,8 +817,8 @@ textarea::placeholder {
     #formularz input {
         height: 20px;
     }
-}*/
-/*@media screen and (max-width: 667px){
+}
+@media screen and (max-width: 667px){
     .naglowek {
         font-size: 32px;
     }
@@ -977,7 +977,7 @@ textarea::placeholder {
     #formularz input {
         height: 10px;
     }
-}*/
+}
 @media all and (orientation: portrait) {
     #zdjecie1 {
 

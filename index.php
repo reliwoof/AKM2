@@ -50,7 +50,7 @@
             <section id="home">
 
                 <div id="zdjecie1" class="parallax">
-                    <div id="grafika_tekst">AKM - ARCHITEKT KAMIL&nbsp;MAZUR</div>
+                    <div id="grafika_tekst" ><h1 class="naglowek">AKM - ARCHITEKT KAMIL&nbsp;MAZUR</h1></div>
                     <div id="grafika_logo"><img src="img/logo3.png" /></div>
                     
                     <!--<img src="Grafiki do AKM/AKM_grafika startowa.png" alt="grafika"/>-->
