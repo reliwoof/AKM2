@@ -1,0 +1,958 @@
+body {
+    background-color: black;
+    margin: 0;
+    color: white;
+}
+html { 
+    height: 100%; 
+    width: 100%;
+    margin: 0 auto; 
+}
+body {
+    height: 100%; 
+    width: 90%;
+    margin: 0 auto; 
+}
+main {
+    height: 100%; 
+    width: 100%;
+    margin: 0 auto; 
+}
+* {
+    font-family: 'Lato', sans-serif;
+}
+#przycisk {
+    display: none;
+}
+#przycisk div {
+    
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+    
+}
+#logomenu2 {
+    display: none;
+}
+.naglowek {
+    font-size: 70px;
+}
+h1 {
+    font-weight: normal;
+}
+.parallax {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    min-width: 100%;
+    width: 70%;
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+#home {
+    height: 100%;
+    width: 100%;
+}
+.tekst {
+    width: 40%;
+    float: right;
+    padding-right: 5%;
+    font-size: 30px;
+}
+.zdjecie {
+    width: 55%;
+    background-color: white;
+    float: left;
+}
+/*    #zdjecie1 img{
+        width: 100%;
+        height: 100%;
+    }*/
+/*#zdjecie1 header {
+    text-align: center;
+    margin: 0;
+    display: block;
+    width: 100%;
+    color: white;
+    padding: 0;
+    line-height: 300px;
+
+    font-family: "Roboto", sans-serif;
+}*/
+#tytul h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 100px;
+    margin: 5% 0;
+    letter-spacing: 1.5px;
+}
+/*#logo {
+    height: 50px;
+}*/
+#zdjecie1 {
+    width: 100%;
+    height: 100%;
+    /*        background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;*/
+    background-image: url("Grafiki do AKM/AKM_grafika startowa.png");
+    /*font-size: 100px;*/
+}
+#zdjecie2 {
+    background-image: url("img/3.jpg");
+}
+nav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width:90%;
+    height:3%;
+    margin: 0 auto;
+    position: fixed;
+    display:flex;
+    /*visibility: visible;*/
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: rgba(255,255,255,0.7);
+    z-index: 10;
+    border-bottom: solid 1px black;
+}
+nav ul {
+    margin:0;
+    height:100%;
+    /*background-color:blue;*/
+    width:80%;
+    font-size: 30px;
+
+    /*line-height: 50px;*/
+}
+nav ul li {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:20%;
+    height:100%;
+    text-align: center;
+    /*background-color:green;*/
+    /*width:20%;*/
+    float:left;
+    /*height: 100%;*/
+    /*display: inline-block;*/
+    /*color: rgb(190,190,190);*/
+}
+nav ul li a img {
+    height: 100%;
+}
+nav ul li a{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration: none;
+    /*display: block;*/
+    width: 100%;
+    height: 100%;
+    /*color: rgb(190,190,190);*/
+    color: black;
+
+}
+nav ul li a:hover{
+    color: rgba(0,0,0,0.7);
+    cursor:pointer;
+}
+/*.menu li{
+    display: inline-block;
+    color: white;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+}*/
+/*.menu li a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+a:visited {
+    color: white;
+}*/
+#zdjecie2 > div {
+    width: 50%;
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+}
+#omnie header {
+    text-align: center;
+    margin: 0;
+    display: block;
+    color: white;
+    padding: 10% 0 5% 0;
+    font-size: 70px;
+}
+#omnie article{
+    padding: 5%;
+    margin-bottom: 15%;
+}
+#lista {
+    width: 100%;
+    margin: 0;
+    /*padding: 4% 0;*/
+    overflow: hidden;
+    text-align: center;
+    background-color: black;
+
+}
+#lista img {
+    display: inline-block;
+    float: left;
+    width: 33.333333%;
+    /*padding: 0 1%;*/
+    height: 100%;
+    margin: 0;
+}
+#lista img:hover {
+    cursor: pointer;
+}
+#zdjecie1 header {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*height:100%;*/
+    /*font-size: 80px;*/
+
+}
+#zdjecie2 header > div {
+    /*font-size: 80px;*/
+    color: white;
+}
+
+#omnie {
+    /*height: 65%;*/
+}
+#zdjecie2 p {
+    font-size: 30px;
+    color: white;
+    padding: 0 5%;
+
+}
+#kontakt {
+    height: 80%;
+    margin-bottom: 50px;
+}
+#kontakt > div {
+    height: 70%;
+    width: 100%;
+    padding: 2% 0;
+    background-color: black;
+}
+#danekontaktowe{
+    padding-top: 5%;
+    width: 50%;
+    float: right;
+    /*text-align: center;*/
+    /*font-size: 20px;*/
+    color: white;
+}
+#danekontaktowe header {
+    text-align: center;
+    font-size: 100px;
+}
+#danekontaktowe article{
+    font-size: 50px;
+    padding-left:20%;
+}
+textarea {
+    resize: none;
+    width: 100%;
+    height: 50%;
+    border: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+#formularz {
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+form {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+#formularz input {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 8px;
+    height: 40px;
+    border: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+#submit {
+    width: 30% !important;
+    float: right;
+    display: block;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 50px;
+    outline: none;
+    cursor: pointer;
+}
+#submit:hover {
+    color: rgb(100,100,100);
+}
+input::placeholder {
+    /*font-size: 25px;*/
+}
+textarea::placeholder {
+    /*font-size: 25px;*/
+}
+.opis {
+    width: 100% !important;
+    display: inline-block;
+    background-color:black;
+}
+.opis p {
+    padding: 10px;
+    text-align: left;
+}
+
+@media screen and (max-width:1920px){
+    body {
+        background-color: black;
+        margin: 0;
+        color: white;
+    }
+    html, body, main { 
+        height: 100%; 
+        width: 100%;
+        margin: 0; 
+    }
+    * {
+        font-family: 'Lato', sans-serif;
+    }
+
+    h1 {
+        font-weight: normal;
+    }
+    .naglowek {
+        font-size: 50px;
+    }
+    .tekst {
+        font-size: 20px;
+    }
+    .parallax {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        min-width: 100%;
+        width: 70%;
+        clear: both;
+        padding: 0;
+        margin: 0;
+    }
+    #home {
+        height: 100%;
+        width: 100%;
+    }
+    /*    #zdjecie1 img{
+            width: 100%;
+            height: 100%;
+        }*/
+    /*#zdjecie1 header {
+        text-align: center;
+        margin: 0;
+        display: block;
+        width: 100%;
+        color: white;
+        padding: 0;
+        line-height: 300px;
+    
+        font-family: "Roboto", sans-serif;
+    }*/
+    #tytul h1 {
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 70px;
+        margin: 5% 0;
+        letter-spacing: 1.5px;
+    }
+    /*#logo {
+        height: 50px;
+    }*/
+    #zdjecie1 {
+        width: 100%;
+        height: 100%;
+
+        background-image: url("Grafiki do AKM/AKM_grafika startowa2.png");
+        /*font-size: 100px;*/
+    }
+    #zdjecie2 {
+        background-image: url("img/3.jpg");
+    }
+    nav {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width:100%;
+        height:5%;
+        position: fixed;
+        display:flex;
+        justify-content: center;
+        text-transform: uppercase;
+        background-color: rgba(255,255,255,0.7);
+        z-index: 10;
+        border-bottom: solid 1px black;
+    }
+    nav ul {
+        margin:0 auto;
+        height:100%;
+        /*background-color:blue;*/
+        width:80%;
+        font-size: 19px;
+        /*line-height: 50px;*/
+    }
+    nav ul li {
+        text-align: center;
+        /*background-color:green;*/
+        width:25%;
+        float:left;
+        height: 100%;
+        display: inline-block;
+        /*color: rgb(190,190,190);*/
+    }
+    nav ul li a img {
+        height: 100%;
+    }
+    nav ul li a{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-decoration: none;
+        /*display: block;*/
+        width: 100%;
+        height: 100%;
+        /*color: rgb(190,190,190);*/
+        color: black;
+
+    }
+    nav ul li a:hover{
+        color: rgba(0,0,0,0.7);
+        cursor:pointer;
+    }
+
+    #zdjecie2 > div {
+        width: 50%;
+        background-color: rgba(0,0,0,0.5);
+        height: 100%;
+    }
+    #omnie header {
+        text-align: center;
+        margin: 0;
+        display: block;
+        color: white;
+        padding: 10% 0 5% 0;
+        font-size: 50px;
+    }
+    #omnie article{
+        padding: 5%;
+        margin-bottom: 15%;
+    }
+    #lista {
+        width: 100%;
+        margin: 0;
+        /*padding: 4% 0;*/
+        overflow: hidden;
+        text-align: center;
+        background-color: black;
+
+    }
+    #lista img {
+        display: inline-block;
+        float: left;
+        width: 33.333333%;
+        /*padding: 0 1%;*/
+        height: 100%;
+        margin: 0;
+    }
+    #lista img:hover {
+        cursor: pointer;
+    }
+    #zdjecie1 header {
+        /*display: flex;*/
+        /*justify-content: center;*/
+        /*align-items: center;*/
+        /*height:100%;*/
+        /*font-size: 80px;*/
+
+    }
+    #zdjecie2 header > div {
+        /*font-size: 80px;*/
+        color: white;
+    }
+
+    #omnie {
+        /*height: 65%;*/
+    }
+    #zdjecie2 p {
+        font-size: 20px;
+        color: white;
+        padding: 0 5%;
+
+    }
+    #kontakt {
+        height: 100%;
+        /*margin-bottom: 50px;*/
+    }
+    #kontakt > div {
+        height: 100%;
+        width: 100%;
+        padding: 2% 0;
+        background-color: black;
+    }
+    #danekontaktowe{
+        padding-top: 5%;
+        width: 50%;
+        float: right;
+        /*text-align: center;*/
+        /*font-size: 70px;*/
+        color: white;
+    }
+    #danekontaktowe header {
+        font-size: 50px;
+    }
+    #danekontaktowe article{
+        font-size: 30px;
+    }
+    textarea {
+        resize: none;
+        width: 100%;
+        height: 50%;
+        border: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #formularz {
+        float: left;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+    }
+    form {
+        display: inline-block;
+        width: 50%;
+        height: 100%;
+    }
+    #formularz input {
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 8px;
+        height: 35px;
+        border: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #submit {
+        width: 30% !important;
+        float: right;
+        display: block;
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 30px;
+        outline: none;
+        cursor: pointer;
+    }
+    #submit:hover {
+        color: rgb(100,100,100);
+    }
+    input::placeholder {
+        /*font-size: 25px;*/
+    }
+    textarea::placeholder {
+        /*font-size: 25px;*/
+    }
+    .opis {
+        width: 100% !important;
+        display: inline-block;
+        background-color:black;
+    }
+    .opis p {
+        padding: 10px;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 1080px){
+    .naglowek {
+        font-size: 40px;
+    }
+    .tekst {
+        font-size: 19px;
+    }
+    #tytul h1 {
+        font-size: 40px;
+    }
+    nav ul {
+        font-size: 14px;
+    }
+    #omnie header {
+        font-size: 40px;
+    }
+    #zdjecie2 p {
+        font-size: 20px;
+    }
+    #danekontaktowe header {
+        font-size: 40px;
+    }
+    #danekontaktowe article{
+        font-size: 20px;
+    }
+    #submit {
+        font-size: 20px;
+    }
+    #formularz input {
+        height: 25px;
+    }
+}
+@media screen and (max-width: 800px){
+    .naglowek {
+        font-size: 35px;
+    }
+    .tekst {
+        font-size: 17px;
+    }
+    #tytul h1 {
+        font-size: 35px;
+    }
+    nav ul {
+        font-size: 12px;
+    }
+    #omnie header {
+        font-size: 35px;
+    }
+    #zdjecie2 p {
+        font-size: 18px;
+    }
+    #danekontaktowe header {
+        font-size: 35px;
+    }
+    #danekontaktowe article{
+        font-size: 18px;
+    }
+    #submit {
+        font-size: 18px;
+    }
+    #formularz input {
+        height: 22px;
+    }
+
+}
+@media screen and (max-width: 736px){
+    #przycisk {
+        display: block;
+        position: fixed;
+        right: 5%;
+        top: 5%;
+        background-color: rgba(255,255,255,0.7);
+        z-index: 300;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+    }
+    nav {
+        display: none;
+        height: 30%;
+        background-color: rgba(255,255,255,1);
+
+    }
+    nav ul { 
+        height: 100%;
+        width: 50%;
+        /*float: left;*/
+        margin: 0 auto;
+    }
+    nav ul li { 
+        float: none;
+        width: 100%;
+        height: 25%;
+    }
+    nav img {
+        height: 10%;
+    }
+    /*    nav ul li {
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            width:100%;
+            height:33%;
+            text-align: center;
+            background-color:green;
+            width:20%;
+            float:left;
+        }*/
+    /*    #logomenu2 {
+            float: left;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 5%;
+            left: 5%;
+        }*/
+    #logomenu2 img {
+        height: 20%;
+    }
+    #zdjecie2 > div {
+        width: 100%;
+    }
+    #danekontaktowe {
+        height: auto;
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    #formularz {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: 0 auto;
+    }
+    #kontakt > div {
+        padding: 0;
+    }
+    .naglowek {
+        font-size: 33px;
+    }
+    .tekst {
+        font-size: 16px;
+    }
+    #tytul h1 {
+        font-size: 33px;
+    }
+    nav ul {
+        font-size: 20px;
+    }
+    #omnie header {
+        font-size: 33px;
+    }
+    #zdjecie2 p {
+        font-size: 16px;
+    }
+    #danekontaktowe header {
+        font-size: 33px;
+    }
+    #danekontaktowe article{
+        font-size: 16px;
+    }
+    #submit {
+        font-size: 16px;
+    }
+    #formularz input {
+        height: 20px;
+    }
+
+}
+@media screen and (max-width: 694px){
+    .naglowek {
+        font-size: 33px;
+    }
+    .tekst {
+        font-size: 16px;
+    }
+    #tytul h1 {
+        font-size: 33px;
+    }
+    nav ul {
+        font-size: 11px;
+    }
+    #omnie header {
+        font-size: 33px;
+    }
+    #zdjecie2 p {
+        font-size: 16px;
+    }
+    #danekontaktowe header {
+        font-size: 33px;
+    }
+    #danekontaktowe article{
+        font-size: 16px;
+    }
+    #submit {
+        font-size: 16px;
+    }
+    #formularz input {
+        height: 20px;
+    }
+}
+@media screen and (max-width: 667px){
+    .naglowek {
+        font-size: 32px;
+    }
+    .tekst {
+        font-size: 15px;
+    }
+    #tytul h1 {
+        font-size: 32px;
+    }
+    nav ul {
+        font-size: 10px;
+    }
+    #omnie header {
+        font-size: 32px;
+    }
+    #zdjecie2 p {
+        font-size: 15px;
+    }
+    #danekontaktowe header {
+        font-size: 32px;
+    }
+    #danekontaktowe article{
+        font-size: 15px;
+    }
+    #submit {
+        font-size: 15px;
+    }
+    #formularz input {
+        height: 19px;
+    }
+}
+@media screen and (max-width: 507px){
+    .naglowek {
+        font-size: 30px;
+    }
+    .tekst {
+        font-size: 13px;
+    }
+    #tytul h1 {
+        font-size: 30px;
+    }
+    nav ul {
+        font-size: 8px;
+    }
+    #omnie header {
+        font-size: 30px;
+    }
+    #zdjecie2 p {
+        font-size: 13px;
+    }
+    #danekontaktowe header {
+        font-size: 30px;
+    }
+    #danekontaktowe article{
+        font-size: 13px;
+    }
+    #submit {
+        font-size: 13px;
+    }
+    #formularz input {
+        height: 17px;
+    }
+}
+@media screen and (max-width: 438px){
+    .naglowek {
+        font-size: 28px;
+    }
+    .tekst {
+        font-size: 11px;
+    }
+    #tytul h1 {
+        font-size: 28px;
+    }
+    nav ul {
+        font-size: 6px;
+    }
+    #omnie header {
+        font-size: 28px;
+    }
+    #zdjecie2 p {
+        font-size: 11px;
+    }
+    #danekontaktowe header {
+        font-size: 28px;
+    }
+    #danekontaktowe article{
+        font-size: 11px;
+    }
+    #submit {
+        font-size: 11px;
+    }
+    #formularz input {
+        height: 15px;
+    }
+}
+@media screen and (max-width: 375px){
+    .naglowek {
+        font-size: 25px;
+    }
+    .tekst {
+        font-size: 10px;
+    }
+    #tytul h1 {
+        font-size: 25px;
+    }
+    nav ul {
+        font-size: 4px;
+    }
+    #omnie header {
+        font-size: 25px;
+    }
+    #zdjecie2 p {
+        font-size: 10px;
+    }
+    #danekontaktowe header {
+        font-size: 25px;
+    }
+    #danekontaktowe article{
+        font-size: 10px;
+    }
+    #submit {
+        font-size: 10px;
+    }
+    #formularz input {
+        height: 12px;
+    }
+}
+@media screen and (max-width: 320px){
+    .naglowek {
+        font-size: 22px;
+    }
+    .tekst {
+        font-size: 9px;
+    }
+    #tytul h1 {
+        font-size: 22px;
+    }
+    nav ul {
+        font-size: 4px;
+    }
+    #omnie header {
+        font-size: 22px;
+    }
+    #zdjecie2 p {
+        font-size: 9px;
+    }
+    #danekontaktowe header {
+        font-size: 22px;
+    }
+    #danekontaktowe article{
+        font-size: 9px;
+    }
+    #submit {
+        font-size: 9px;
+    }
+    #formularz input {
+        height: 10px;
+    }
+}
